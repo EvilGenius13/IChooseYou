@@ -59,7 +59,7 @@ class PokemonCard extends LitElement {
       border-radius: 10px;
       padding: 20px;
       text-align: center;
-      background-color: white;
+      background-color: #FFDD43;
       font-family: sans-serif;
       transition: transform 0.3s ease, box-shadow 0.3s ease;
       will-change: transform, box-shadow;
@@ -87,6 +87,7 @@ class PokemonCard extends LitElement {
     color: #333;
     text-transform: capitalize;
     font-family: 'Pokemon Solid', sans-serif;
+    border-bottom: 2px solid #333;
     }
 
     .pokemon-id {
@@ -114,6 +115,7 @@ class PokemonCard extends LitElement {
       color: white;
       font-size: 0.8em;
       text-transform: capitalize;
+      border: 2px solid white;
     }
     /* Type-specific background colors */
     .pokemon-type.normal { background-color: #A8A77A; }
